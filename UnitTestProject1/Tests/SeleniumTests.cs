@@ -12,7 +12,7 @@ namespace Selenium
         private IWebDriver _driver;
         private static string _url = "http:/www.google.com/";
         public string[] imie = { "Paweł", "Michał", "Marcin", "Piotrek", "Radek" };
-        public string[] nazwisko = { "Kowalski", "Nowak", "Szczygieł", "Jurkowski", "Kolano", "Dudek" };
+        public string[] nazwisko = { "Chachulski","Nowacki","Kowalski", "Nowak", "Szczygieł", "Jurkowski", "Kolano", "Dudek" };
         public Random rnd = new Random();
         public int tmp;
         public string str_tmp, mix;
